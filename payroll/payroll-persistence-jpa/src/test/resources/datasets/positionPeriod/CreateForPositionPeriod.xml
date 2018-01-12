@@ -1,0 +1,9 @@
+<dataset>
+	<EMPLOYEE UCN="0123456789" NAME="Dragan Prokopov" USER_NAME="dragan@dxc.com"
+		PASSWORD="password" ROLE_NAME="[null]" CONTRACT_TYPE="CT        "
+		TEAM_LEAD_UCN="[null]" />
+	<JOB JOB_TITLE="Developer                       " JOB_DEGREE="Junior              "
+		PRECEDENSE_NUMBER="20" MIN_SALARY="1500" MAX_SALARY="3000" />
+	<POSITION JOB_TITLE="Developer                       "
+		JOB_DEGREE="Junior              " JOB_LEVEL="4" BASE_SALARY="1900" />
+</dataset>

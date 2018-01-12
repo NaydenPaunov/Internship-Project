@@ -1,0 +1,9 @@
+/build/
+/target/
+*/.classpath
+*/.project
+*/.settings/
+.classpath
+.project
+/.settings/
+**/unitils-local.properties

@@ -1,0 +1,13 @@
+<dataset>
+	<TAX />
+	<RESTRICTION />
+	<USER_RIGHT />
+	<ROLE />
+	<ROLE_RIGHT />
+	<EMPLOYEE />
+	<PAYCHECK />
+	<JOB />
+	<POSITION />
+	<POSITION_PERIOD />
+	<INDEXATION />
+</dataset>

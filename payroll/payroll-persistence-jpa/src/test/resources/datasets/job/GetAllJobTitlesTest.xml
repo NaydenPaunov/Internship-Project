@@ -1,0 +1,10 @@
+<dataset>
+	<JOB JOB_TITLE="Scala Developer                 " JOB_DEGREE="Junior              "
+		PRECEDENSE_NUMBER="20" MIN_SALARY="1500" MAX_SALARY="2900" />
+	<JOB JOB_TITLE="Java Developer                  " JOB_DEGREE="Senior              "
+		PRECEDENSE_NUMBER="40" MIN_SALARY="1600" MAX_SALARY="4900" />
+	<JOB JOB_TITLE="Ruby Developer                  " JOB_DEGREE="Junior              "
+		PRECEDENSE_NUMBER="20" MIN_SALARY="1700" MAX_SALARY="3900" />
+	<JOB JOB_TITLE="Go Developer                    " JOB_DEGREE="Senior              "
+		PRECEDENSE_NUMBER="40" MIN_SALARY="1200" MAX_SALARY="4900" />
+</dataset>

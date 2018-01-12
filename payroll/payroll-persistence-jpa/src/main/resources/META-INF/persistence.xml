@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="payroll">
+
+		<!-- All entities to work with in JPA. -->
+		<class>com.dxc.payroll.persistence.jpa.domain.JpaEmployee</class>
+		<class>com.dxc.payroll.persistence.jpa.domain.JpaPaycheck</class>
+		<class>com.dxc.payroll.persistence.jpa.domain.JpaIndexation</class>
+		<class>com.dxc.payroll.persistence.jpa.domain.JpaJob</class>
+		<class>com.dxc.payroll.persistence.jpa.domain.JpaJobID</class>
+		<class>com.dxc.payroll.persistence.jpa.domain.JpaPosition</class>
+		<class>com.dxc.payroll.persistence.jpa.domain.JpaPositionPeriod</class>
+		<class>com.dxc.payroll.persistence.jpa.domain.JpaRole</class>
+		<class>com.dxc.payroll.persistence.jpa.domain.JpaTax</class>
+		<class>com.dxc.payroll.persistence.jpa.domain.JpaUserRight</class>
+		<class>com.dxc.payroll.persistence.jpa.domain.PaycheckID</class>
+		<class>com.dxc.payroll.persistence.jpa.domain.PositionID</class>
+		<class>com.dxc.payroll.persistence.jpa.domain.JpaPositionPeriodID</class>
+		<class>com.dxc.payroll.persistence.jpa.utils.LocalDateConverter</class>
+		<class>com.dxc.payroll.persistence.jpa.domain.IndexationID</class>
+
+		<!-- Configure JDBC & hibernate -->
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="${db.driverClass}" />
+			<property name="javax.persistence.jdbc.url" value="${db.connectionURL}" />
+			<property name="javax.persistence.jdbc.user" value="${db.username}" />
+			<property name="javax.persistence.jdbc.password" value="${db.password}" />
+			<property name="hibernate.dialect" value="${db.dialect}" />
+			<property name="hibernate.show_sql" value="true" />
+		</properties>
+	</persistence-unit>
+</persistence>

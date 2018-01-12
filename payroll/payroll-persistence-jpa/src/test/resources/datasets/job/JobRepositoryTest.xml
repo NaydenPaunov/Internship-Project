@@ -1,0 +1,11 @@
+<dataset>
+	<EMPLOYEE />
+	<PAYCHECK />
+	<USER_RIGHT />
+	<ROLE />
+	<ROLE_RIGHT />
+	<POSITION_HISTORY />
+	<POSITION />
+	<JOB />
+	<INDEXATION />
+</dataset>

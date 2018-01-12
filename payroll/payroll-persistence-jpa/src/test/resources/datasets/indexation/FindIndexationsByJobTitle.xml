@@ -1,0 +1,32 @@
+<dataset>
+	<JOB JOB_TITLE="Developer                       " JOB_DEGREE="Senior              "
+		PRECEDENSE_NUMBER="40" MIN_SALARY="3500" MAX_SALARY="6000" />
+	<JOB JOB_TITLE="Developer                       " JOB_DEGREE="Junior              "
+		PRECEDENSE_NUMBER="20" MIN_SALARY="1500" MAX_SALARY="3000" />
+	<JOB JOB_TITLE="QA                              " JOB_DEGREE="Junior              "
+		PRECEDENSE_NUMBER="20" MIN_SALARY="1100" MAX_SALARY="2500" />
+
+
+	<POSITION JOB_TITLE="Developer                       "
+		JOB_DEGREE="Junior              " JOB_LEVEL="1" BASE_SALARY="1800" />
+	<POSITION JOB_TITLE="Developer                       "
+		JOB_DEGREE="Junior              " JOB_LEVEL="2" BASE_SALARY="2500" />
+	<POSITION JOB_TITLE="Developer                       "
+		JOB_DEGREE="Senior              " JOB_LEVEL="1" BASE_SALARY="3700" />
+	<POSITION JOB_TITLE="Developer                       "
+		JOB_DEGREE="Senior              " JOB_LEVEL="3" BASE_SALARY="4800" />
+
+	<INDEXATION DATE_OF_INDEXATION="2008-06-20 00:00:00.0"
+		JOB_TITLE="Developer                       " JOB_DEGREE="Junior              "
+		JOB_LEVEL="1" PERCENTAGE="1.75" />
+	<INDEXATION DATE_OF_INDEXATION="2015-10-24 00:00:00.0"
+		JOB_TITLE="Developer                       " JOB_DEGREE="Junior              "
+		JOB_LEVEL="2" PERCENTAGE="2.15" />
+	<INDEXATION DATE_OF_INDEXATION="2004-05-05 00:00:00.0"
+		JOB_TITLE="Developer                       " JOB_DEGREE="Senior              "
+		JOB_LEVEL="3" PERCENTAGE="6.66" />
+	<INDEXATION DATE_OF_INDEXATION="2011-07-10 00:00:00.0"
+		JOB_TITLE="Developer                       " JOB_DEGREE="Senior              "
+		JOB_LEVEL="1" PERCENTAGE="3.19" />
+
+</dataset>

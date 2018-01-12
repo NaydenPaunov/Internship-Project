@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.dxc.payroll</groupId>
+		<artifactId>payroll</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>payroll-overlay</artifactId>
+	<packaging>war</packaging>
+	<name>payroll overlay</name>
+	<url>http://maven.apache.org</url>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.dxc.payroll</groupId>
+			<artifactId>payroll-web</artifactId>
+			<type>war</type>
+			<scope>runtime</scope>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.dxc.payroll</groupId>
+			<artifactId>payroll-service-implementation</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.dxc.payroll</groupId>
+			<artifactId>payroll-persistence</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.dxc.payroll</groupId>
+			<artifactId>payroll-persistence-jpa</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.dxc.payroll</groupId>
+			<artifactId>payroll-initialization</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.dxc.payroll</groupId>
+			<artifactId>payroll-common</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+					<overlays>
+						<overlay>
+							<groupId>com.dxc.payroll</groupId>
+							<artifactId>payroll-web</artifactId>
+						</overlay>
+					</overlays>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+					<outputDirectory>${output.dir.path}</outputDirectory>
+				</configuration>
+			</plugin>
+		</plugins>
+
+		<finalName>payroll</finalName>
+	</build>
+
+</project>

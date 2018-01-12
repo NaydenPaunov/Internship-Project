@@ -1,0 +1,6 @@
+<dataset>
+	<JOB JOB_TITLE="Developer                       " JOB_DEGREE="Senior              "
+		PRECEDENSE_NUMBER="40" MIN_SALARY="1500" MAX_SALARY="3000" />
+	<POSITION JOB_TITLE="Developer                       "
+		JOB_DEGREE="Senior              " JOB_LEVEL="1" BASE_SALARY="2500" />
+</dataset>

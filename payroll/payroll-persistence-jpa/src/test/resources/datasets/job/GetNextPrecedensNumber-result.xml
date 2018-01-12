@@ -1,0 +1,18 @@
+<dataset>
+	<JOB JOB_TITLE="Scala Developer                 " JOB_DEGREE="Junior              "
+		PRECEDENSE_NUMBER="20" MIN_SALARY="1500" MAX_SALARY="2900" />
+	<JOB JOB_TITLE="Java Developer                  " JOB_DEGREE="Senior              "
+		PRECEDENSE_NUMBER="40" MIN_SALARY="1600" MAX_SALARY="4900" />
+	<JOB JOB_TITLE="Ruby Developer                  " JOB_DEGREE="Junior              "
+		PRECEDENSE_NUMBER="20" MIN_SALARY="1700" MAX_SALARY="3900" />
+
+
+	<POSITION JOB_TITLE="Java Developer                  "
+		JOB_DEGREE="Senior              " JOB_LEVEL="4" BASE_SALARY="1234" />
+	<POSITION JOB_TITLE="Scala Developer                 "
+		JOB_DEGREE="Junior              " JOB_LEVEL="3" BASE_SALARY="1234" />
+	<POSITION JOB_TITLE="Scala Developer                 "
+		JOB_DEGREE="Junior              " JOB_LEVEL="2" BASE_SALARY="1234" />
+	<POSITION JOB_TITLE="Ruby Developer                  "
+		JOB_DEGREE="Junior              " JOB_LEVEL="2" BASE_SALARY="1234" />
+</dataset>
